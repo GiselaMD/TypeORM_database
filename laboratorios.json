@@ -1,1 +1,32 @@
-[{"id":1,"nome":"Laboratório Bom Pastor","cidade":"Taquara","endereco":"Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro","telefone":35421939,"bioquimicos":[{"CRQ":2118,"nome":"Vicente","sobrenome":"Kayser","salario":4200,"especialidade":"Fezes"},{"CRQ":4278,"nome":"Osvaldo","sobrenome":null,"salario":2200,"especialidade":"Urina"},{"CRQ":4465,"nome":"Thomas","sobrenome":"Miller","salario":3200,"especialidade":"Sangue, Colesterol, Glicose, Albumina"}]}]
+[
+   {
+      "id":1,
+      "nome":"Laboratório Bom Pastor",
+      "cidade":"Taquara",
+      "endereco":"Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro",
+      "telefone":35421939,
+      "bioquimicos":[
+         {
+            "CRQ":2118,
+            "nome":"Vicente",
+            "sobrenome":"Kayser",
+            "salario":4200,
+            "especialidade":"Fezes"
+         },
+         {
+            "CRQ":4278,
+            "nome":"Osvaldo",
+            "sobrenome":null,
+            "salario":2200,
+            "especialidade":"Urina"
+         },
+         {
+            "CRQ":4465,
+            "nome":"Thomas",
+            "sobrenome":"Miller",
+            "salario":3200,
+            "especialidade":"Sangue, Colesterol, Glicose, Albumina"
+         }
+      ]
+   }
+]

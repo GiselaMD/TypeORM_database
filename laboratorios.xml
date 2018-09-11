@@ -1,1 +1,26 @@
-<id>1</id><nome>Laboratório Bom Pastor</nome><cidade>Taquara</cidade><endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco><telefone>35421939</telefone><bioquimicos><CRQ>2118</CRQ><nome>Vicente</nome><sobrenome>Kayser</sobrenome><salario>4200</salario><especialidade>Fezes</especialidade></bioquimicos><bioquimicos><CRQ>4278</CRQ><nome>Osvaldo</nome><sobrenome/><salario>2200</salario><especialidade>Urina</especialidade></bioquimicos><bioquimicos><CRQ>4465</CRQ><nome>Thomas</nome><sobrenome>Miller</sobrenome><salario>3200</salario><especialidade>Sangue, Colesterol, Glicose, Albumina</especialidade></bioquimicos></0>
+<id>1</id>
+<nome>Laboratório Bom Pastor</nome>
+<cidade>Taquara</cidade>
+<endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco>
+<telefone>35421939</telefone>
+<bioquimicos>
+    <CRQ>2118</CRQ>
+    <nome>Vicente</nome>
+    <sobrenome>Kayser</sobrenome>
+    <salario>4200</salario>
+    <especialidade>Fezes</especialidade>
+</bioquimicos>
+<bioquimicos>
+    <CRQ>4278</CRQ>
+    <nome>Osvaldo</nome>
+    <sobrenome/>
+    <salario>2200</salario>
+    <especialidade>Urina</especialidade>
+</bioquimicos>
+<bioquimicos>
+    <CRQ>4465</CRQ>
+    <nome>Thomas</nome>
+    <sobrenome>Miller</sobrenome>
+    <salario>3200</salario>
+    <especialidade>Sangue, Colesterol, Glicose, Albumina</especialidade>
+</bioquimicos>undefined</0>

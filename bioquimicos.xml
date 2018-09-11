@@ -1,1 +1,61 @@
-<CRQ>2118</CRQ><nome>Vicente</nome><sobrenome>Kayser</sobrenome><salario>4200</salario><especialidade>Fezes</especialidade><exames><numExame>2</numExame><tipos>Urina, Fezes</tipos><CRMmedico>2546</CRMmedico></exames><laboratorio><id>1</id><nome>Laboratório Bom Pastor</nome><cidade>Taquara</cidade><endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco><telefone>35421939</telefone></laboratorio></0><1><CRQ>4278</CRQ><nome>Osvaldo</nome><sobrenome/><salario>2200</salario><especialidade>Urina</especialidade><exames><numExame>2</numExame><tipos>Urina, Fezes</tipos><CRMmedico>2546</CRMmedico></exames><exames><numExame>3</numExame><tipos>Sangue, Colesterol, Glicose, Urina</tipos><CRMmedico>2238</CRMmedico></exames><laboratorio><id>1</id><nome>Laboratório Bom Pastor</nome><cidade>Taquara</cidade><endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco><telefone>35421939</telefone></laboratorio></1><2><CRQ>4465</CRQ><nome>Thomas</nome><sobrenome>Miller</sobrenome><salario>3200</salario><especialidade>Sangue, Colesterol, Glicose, Albumina</especialidade><exames><numExame>1</numExame><tipos>Sangue, Colesterol, Glicose, Albumina</tipos><CRMmedico>2546</CRMmedico></exames><exames><numExame>3</numExame><tipos>Sangue, Colesterol, Glicose, Urina</tipos><CRMmedico>2238</CRMmedico></exames><laboratorio><id>1</id><nome>Laboratório Bom Pastor</nome><cidade>Taquara</cidade><endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco><telefone>35421939</telefone></laboratorio></2>
+<CRQ>2118</CRQ>
+<nome>Vicente</nome>
+<sobrenome>Kayser</sobrenome>
+<salario>4200</salario>
+<especialidade>Fezes</especialidade>
+<exames>
+    <numExame>2</numExame>
+    <tipos>Urina, Fezes</tipos>
+    <CRMmedico>2546</CRMmedico>
+</exames>
+<laboratorio>
+    <id>1</id>
+    <nome>Laboratório Bom Pastor</nome>
+    <cidade>Taquara</cidade>
+    <endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco>
+    <telefone>35421939</telefone>
+</laboratorio>undefined</0>undefined<1>
+<CRQ>4278</CRQ>
+<nome>Osvaldo</nome>
+<sobrenome/>
+<salario>2200</salario>
+<especialidade>Urina</especialidade>
+<exames>
+    <numExame>2</numExame>
+    <tipos>Urina, Fezes</tipos>
+    <CRMmedico>2546</CRMmedico>
+</exames>
+<exames>
+    <numExame>3</numExame>
+    <tipos>Sangue, Colesterol, Glicose, Urina</tipos>
+    <CRMmedico>2238</CRMmedico>
+</exames>
+<laboratorio>
+    <id>1</id>
+    <nome>Laboratório Bom Pastor</nome>
+    <cidade>Taquara</cidade>
+    <endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco>
+    <telefone>35421939</telefone>
+</laboratorio>undefined</1>undefined<2>
+<CRQ>4465</CRQ>
+<nome>Thomas</nome>
+<sobrenome>Miller</sobrenome>
+<salario>3200</salario>
+<especialidade>Sangue, Colesterol, Glicose, Albumina</especialidade>
+<exames>
+    <numExame>1</numExame>
+    <tipos>Sangue, Colesterol, Glicose, Albumina</tipos>
+    <CRMmedico>2546</CRMmedico>
+</exames>
+<exames>
+    <numExame>3</numExame>
+    <tipos>Sangue, Colesterol, Glicose, Urina</tipos>
+    <CRMmedico>2238</CRMmedico>
+</exames>
+<laboratorio>
+    <id>1</id>
+    <nome>Laboratório Bom Pastor</nome>
+    <cidade>Taquara</cidade>
+    <endereco>Ed Fleming, R. Arnaldo da Costa Bard, 2940 - 101 - Centro</endereco>
+    <telefone>35421939</telefone>
+</laboratorio>undefined</2>

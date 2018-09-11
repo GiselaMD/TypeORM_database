@@ -1,4 +1,4 @@
-# Projeto de Banco de Dados II utilizando TypeORM - Unisinos
+# Projeto de Banco de Dados II com TypeORM - Unisinos
 
 ## Requisitos do projeto:
 

@@ -151,7 +151,10 @@ function writeDatabaseToJSON(databaseData:any,dBDescription:any){
 function writeDatabaseToXML(databaseData:any, dBDescription:any){
     let i = 0;
     databaseData.forEach(tableData => {
-        fs.writeFile(dBDescription[i] + '.xml', json2xml(JSON.parse(JSON.stringify(tableData)),'').replace('<0>', "") , (err) => {
+        fs.writeFile(dBDescription[i] + '.xml', json2xml(JSON.parse(JSON.stringify(tableData)),'')
+                                                                .replace('<0>','<?xml version="1.0" encoding="UTF-8" standalone="no" ?><0>')
+                                                                .replace(/[<][0-9][>]/gm,'<'+(dBDescription[i]).substring(0,4)+'>')
+                                                                .replace(/[</][0-9][>]/gm,'/'+(dBDescription[i]).substring(0,4)+'>'), (err) => {
             if (err) throw err;
           });            
           console.log('The XML file has been saved!>>>>' + dBDescription[i++] + '.xml');

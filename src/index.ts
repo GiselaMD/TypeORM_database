@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import {createConnection} from "typeorm";
+import {createConnection, Between} from "typeorm";
 import {Paciente} from "./entity/Paciente";
 import {Bioquimico} from "./entity/Bioquimico";
 import {Exame} from "./entity/Exame";
@@ -23,7 +23,7 @@ createConnection({
     ],
 }).then(async connection => {
 
-    console.log("Inserindo um novo paciente no banco de dados...");    
+    console.log("Inserindo dados no banco de dados...");    
 
      const paciente1 = new Paciente();
      paciente1.nome = "Gisela";
@@ -111,11 +111,6 @@ createConnection({
     const [bioquimicos, countBioquimicos] =  await bioquimicoRepository.findAndCount({relations: ["exames", "laboratorio"]});
     const [laboratorios, countLaboratorios] =  await laboratorioRepository.findAndCount({relations: ["bioquimicos"]}); 
 
-    //  pacienteRepository.remove(pacientes);
-    //  exameRepository.remove(exames);
-    //  bioquimicoRepository.remove(bioquimicos);
-    //  laboratorioRepository.remove(laboratorios);
-
     console.log("Carregando dados do Banco de Dados...");
     console.log("Pacientes: ", pacientes);
     console.log("Bioquimicos: ", bioquimicos);
@@ -126,6 +121,17 @@ createConnection({
     console.log("Exames: ", countExames);
     console.log("Bioquimicos: ", countBioquimicos);
     console.log("Laboratorios: ", countLaboratorios+'\n\n');
+
+    const pacienteUnimed = await pacienteRepository.find({where: {convenio: "unimed"}, take: 1 });
+
+    const salarioMedio = await bioquimicoRepository.find({
+        salario: Between(2000, 4000)
+    });
+    //SELECT * FROM "bioquimico" WHERE "salario" BETWEEN 2000 AND 4000
+
+    console.log("Pacientes Unimed: " + pacienteUnimed + '\n');
+    console.log("Salário Bioquímico entre 2000 e 4000: " + salarioMedio);
+
 
     let exameToRemove = await exameRepository.findOne(1);
     await exameRepository.remove(exameToRemove);
@@ -199,4 +205,3 @@ function json2xml(o, tab) {
        xml += toXml(o[m], m, "");
     return tab ? xml.replace(/\t/g, tab) : xml.replace(/\t|\n/g, "");
  }
-
